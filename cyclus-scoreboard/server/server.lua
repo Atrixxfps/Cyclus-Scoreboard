@@ -27,7 +27,7 @@ CreateThread(function()
             end
         end
         TriggerClientEvent("cyclus-scoreboard:client:HulpdienstenSync", -1, politie, ambulance, anwb, brandweer)
-        Citizen.Wait(1000)
+        Citizen.Wait(10000)
         if Cyclus.Print then
             print("[DEV] cyclus-scoreboard:updated")
         end

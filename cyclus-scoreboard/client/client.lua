@@ -33,10 +33,11 @@ function GetCurrentPlayers()
     return TotalPlayers
 end
 
-AddEventHandler('onResourceStart', function()
+AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() == 'cyclus-scoreboard' then
         return
-    else
+    end
+    if not resourceName == 'cyclus-scoreboard' then
         print('Resource renamen is niet toegestaan')
         print('T.O.S overtreding opgemerkt en verzonden naar development.')
     end

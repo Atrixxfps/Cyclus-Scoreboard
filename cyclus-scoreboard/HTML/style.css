@@ -1,0 +1,173 @@
+.board {
+    position: fixed;
+    top: 50%;
+    right: -10vh;
+    transform: translate(0, -50%);
+    width: 37.5vh;
+    height: 47.5vh;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    background-color: #2e3748;
+    border-radius: 0.2rem;
+}
+
+.board-titel {
+    position: relative;
+    top: 1%;
+    left: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    margin-top: -2.7vh;
+}
+
+.interactie-title {
+    position: absolute;
+    top: 18%;
+    left: 5.2vh;
+    color: white;
+    display: flex;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vh;
+    text-transform: uppercase;
+}
+
+.scoreboard-info {
+    position: relative;
+    top: 45%;
+    height: 30vh;
+    width: 36vh;
+    transform: translateY(-50%);
+}
+
+.board-boxes {
+    position: relative;
+    top: 11.5%;
+    left: 3.5vh;
+    transform: translate(0, -50%);
+    width: 31.5vh;
+    height: 4vh;
+    margin: 1.5vh;
+    background-color: #202633;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interactie-box-title {
+    position: absolute;
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: 4%;
+}
+
+.interactie-checkboxes {
+    position: absolute;
+    top: 50%;
+    left: 26.4vh;
+    height: 3vh;
+    width: 3.8vh;
+    transform: translate(0, -50%);
+    background-color: #2e3748;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.interactie-checkboxes-status {
+    position: relative;
+    left: 12.5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hulpdiensten-boxes {
+    position: relative;
+    top: 10%;
+    left: 23%;
+    height: 3vh;
+    width: 4vh;
+    float: left;
+    transform: translate(0, -50%);
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #202633;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img {
+    position: relative;
+    top: 10%;
+    left: 0.4vh;
+    transform: translate(0, -50%);
+    height: 4vh;
+    width: 3vh;
+    margin-right: 1vh;
+    display: flex;
+    align-items: center;
+    float: left;
+    background-size: cover;
+    justify-content: center;
+}
+
+.politie {
+    background-image: url(./img/politie.png);
+}
+.ambulance {
+    background-image: url(./img/veiligheidsregio.png);
+}
+.anwb {
+    background-image: url(./img/anwb.png);
+}
+.brandweer {
+    background-image: url(./img/brandweer.png);
+}
+
+.player-countbox {
+    position: absolute;
+    top: 410%;
+    left: 11vh;
+    transform: translate(0, -50%);
+    height: 3.5vh;
+    width: 6vh;
+    border-radius: 0.3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #202633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fa-times {
+    color: rgb(218, 32, 32);
+}
+
+.fa-check {
+    color: rgb(68, 189, 52);
+}
+
+.fa-clock {
+    color: rgb(255, 190, 50);
+}

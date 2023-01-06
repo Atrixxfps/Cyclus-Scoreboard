@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclus Scripts | Scoreboard</title>
+
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="board" style="display: none;">
+        <div class="board-titel" id="title"></div>
+            <div class="interactie-title">Interacties</div>
+
+        <div class="scoreboard-info">
+            <div class="board-boxes" data-type="winkeloverval">
+                <div class="interactie-box-title" id="NaamBox1"></div>
+                <div class="interactie-checkboxes"></div>
+                <div class="interactie-checkboxes-status"></div>
+            </div>
+
+            <div class="board-boxes" data-type="bankoverval">
+                <div class="interactie-box-title" id="NaamBox2"></div>
+                <div class="interactie-checkboxes"></div>
+                <div class="interactie-checkboxes-status"></div>
+            </div>
+
+            <div class="board-boxes" data-type="juwelieroverval">
+                <div class="interactie-box-title" id="NaamBox3"></div>
+                <div class="interactie-checkboxes"></div>
+                <div class="interactie-checkboxes-status"></div>
+            </div>
+
+            <div class="board-boxes" data-type="humaneheist">
+                <div class="interactie-box-title" id="NaamBox4"></div>
+                <div class="interactie-checkboxes"></div>
+                <div class="interactie-checkboxes-status"></div>
+                <div class="player-countbox" id="player-count"></div>
+            </div>
+
+            <div class="hulpdiensten-boxes" id="politie"></div>
+            <div class="politie img"></div>
+
+            <div class="hulpdiensten-boxes" id="ambulance"></div>
+            <div class="ambulance img"></div>
+
+            <div class="hulpdiensten-boxes" id="anwb"></div>
+            <div class="anwb img"></div>
+
+            <div class="hulpdiensten-boxes" id="brandweer"></div>
+            <div class="brandweer img"></div>
+        </div>
+    </div>
+</body>
